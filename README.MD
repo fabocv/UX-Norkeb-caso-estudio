@@ -142,7 +142,7 @@ Se toman algunas sugerencias del prototipo uno. Agregamos texturas de fondo y ge
 ## Iteración tres de usabilidad
 ### El recorrido
 
-EL usuario debe aprender a usar la app, en específico, debe aprender la noción de escanear las boletas para su beneficio. Como primera misión, a mis encuestados le contaré un pequeño storytelling introductorio.
+La idea es que el usuario aprenda intuitivamente a usar la app, en específico, debe aprender la noción de escanear las boletas para su beneficio. Como primera misión, a mis encuestados le contaré un pequeño storytelling introductorio.
 
 > "Mira, necesitamos comprar un bong y papelillos. Solo tenemos 20000 en efectivo asi que no podemos comprar online, tu misión es comprar solamente eso y ver que tanta maravilla es eso de que escaneando la boleta ganas plata para canjear en la tienda."
 
@@ -152,4 +152,4 @@ EL usuario debe aprender a usar la app, en específico, debe aprender la noción
 
 # Prototipo interactivo
 
-[interactuar por acá](https://www.figma.com/proto/GfNHqGwrQjXyZAIueRdXeM/MVP2025?node-id=11-124&t=GgtRzciGXq16is9j-1)
+[interactuar por acá](https://www.figma.com/proto/GfNHqGwrQjXyZAIueRdXeM/MVP2025)
