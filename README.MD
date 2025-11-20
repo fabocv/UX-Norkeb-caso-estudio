@@ -49,3 +49,107 @@ En la última pregunta de gamificación evaluamos el interés de tres posibles m
 
 ![foto_mision](./assets/img/misiones-1.png)
 Imagen #3 Misiones y testeo de gamificación.
+
+# Investigación y Definición de Usuarios
+
+El objetivo de esta investigación fue perfilar al usuario principal de Norkeb mediante una encuesta realizada a 8 personas entre el 1 a 4 de noviembre, para validar la tracción de una propuesta de Programa de Fidelización Digital que combina una comunidad web con un sistema de recompensas.
+
+### Resumen del Diseño
+- La solución debe ser digital, móvil e incorporar elementos sociales, se infiere que los usuarios pesquizados son adultos jóvenes digitalmente activos.
+- La motivación principal es canjear y materializar los puntos - moneda en valor tangible, es decir, la app debe estimular lo transaccional via descuentos directos
+- La web es un valor añadido a la tienda, y la sección de comunidad como sección de gamificación debe priorizar la privacidad y anonimato total.
+- Escanear la boleta se entiende que es una recompensa y a la vez una misión gamificada debido al beneficio que se obtendrá de esa acción.
+
+## Perfil del Usuario digital Norkeb
+
+### El Cultivador:
+
+- Adulto joven, comprador de temporada (62.5% compra espaciadamente al menos 3 veces al año) relacionado a semillas, equipos como también fertilizantes.  Mencionar que estas preguntas eran de opción única, lo que estamos infiriendo fuera de encuesta que **el que cultiva también consume**, pero por ahora, esta conclusión queda incluida implícitamente dentro de este diseño sin validación explícita.
+
+### El consumidor casual
+
+- Adulto joven, (37.5% de los encuestados) compra al menos dos veces al mes productos ligeramente inclinados a parafernalia. Dado que el porcentaje de consumidores es menor a los cultivadores, vamos a inferir, por sentido común, que **el consumidor casual no cultiva**.
+
+## Mecanismo gamificado de misiones y monedas
+
+Por simplicidad, los puntos Norkeb vs moneda chilena son 1 a 1, es decir, los puntos es dinero real canjeable. La misión más atractiva para ganar puntos son:
+
+- Dejar una reseña sobre el producto comprado (muy valioso para Norkeb)
+- Recomendar la tienda a un amigo (muy relevante la opción de referidos).
+
+## Conclusión Estratégica
+La estrategia de fidelización es atractiva y viable siempre que se enfoque en el valor transaccional para el usuario.
+
+Se desprenden tres lineas de diseño:
+
+- Diseñar la arquitectura de recompensas
+- Diseñar el flujo de adopción (escaneo de QR y compras online)
+- Diseñar la comunidad anónima mediante reseñas.
+
+# Arquitectura de Recompensas
+
+El objetivo es incentivar la adopción, la repetición de compra y generación de contenido.
+
+Desde ahora, los puntos Norkeb pueden ser llamados como 'monedas' o simplemente 'puntos'. Dada la paridad 1:1, el sistema es fácil de entender y trasparente para el usuario
+
+### Definición y tasas de ganancias:
+
+Con cada misión ganas puntos base más un porcentaje de lo comprado.
+
+$$Puntos_{Mision} = Base_{misión} + tasa_{misión} * TotalBoleta$$
+
+| Misión|Base   | Tasa  |
+|---    |---    |---    |
+|Unirse | $100  | 0%    |
+|QR Scan| $350  | 10%   |
+|Reseña | $450  | 0%    |
+|Compra online| $150 | 15% |
+
+Entonces, si un usuario compra $20.000 en tienda física y escanea el QR de la boleta, tenemos ganancia por unirse y por haber escaneado.
+
+$$Puntos += Puntos_{unirse} + Puntos_{Scan QR}$$
+$$Puntos += 100 + (350 + 20000*0.1)$$
+$$Puntos = \$650$$
+
+Estos puntos pueden ser canjeados en una siguiente boleta.
+Para efectos económicos, no sale rentable crear estos mecanismos de ganancias, da igual, lo que importa por ahora es el entendimiento del proceso de diseño.
+
+### Limitaciones
+
+Se debe informar que los canjeos o descuentos solo son accionables si los puntos son mayor o igual a una cifra. Definamos ese valor en 2.500.
+
+Estas definiciones deben ser contenidas bajo estructuras de patrones de diseños adecuadas y equilibradas porque es lógico que pueden sufrir cambios.
+
+# Test de Usabilidad bajo escenario
+## Validación de Prototipo preliminar usando Figma
+
+La meta de este prototipo es ver si el usuario entiende cómo escanear, porqué escanear y como eso le beneficia. Para ello, a cinco encuestados se les hizo revisar la siguiente imágen, pidiéndoles no enfocarse en detalles visuales. Mencionaron que no les resultaba cómodo ni convincente, los colores e íconos distraían mucho. Después de esas quejas, obtuve que:
+
+- Los botones no son llamativos (poco Call to action)
+- Prototipo muy genérico y opaco
+- Cambiar la estructura de los botones y sus textos
+- No queda claro cómo funciona los descuentos
+- Que tenga contrastes mas profundos
+
+![proto1](./assets/img/norkeb_proto_1.png)
+
+## Iteración dos:
+
+Se toman algunas sugerencias del prototipo uno. Agregamos texturas de fondo y generalicé íconos y botones. Dejé claro el beneficio de cada misión, obteniendo mayor aprobación del diseño, aunque personalmente no me convence del todo.
+
+![proto2](./assets/img/norkeb_proto_2.png)
+
+## Iteración tres de usabilidad
+### El recorrido
+
+EL usuario debe aprender a usar la app, en específico, debe aprender la noción de escanear las boletas para su beneficio. Como primera misión, a mis encuestados le contaré un pequeño storytelling introductorio.
+
+> "Mira, necesitamos comprar un bong y papelillos. Solo tenemos 20000 en efectivo asi que no podemos comprar online, tu misión es comprar solamente eso y ver que tanta maravilla es eso de que escaneando la boleta ganas plata para canjear en la tienda."
+
+![proto3](./assets/img/norkeb-3.png)
+
+![proto4](./assets/img/Norkeb-4.png)
+
+# Prototipo interactivo
+
+[interactuar por acá](https://www.figma.com/proto/GfNHqGwrQjXyZAIueRdXeM/MVP2025?node-id=11-124&t=GgtRzciGXq16is9j-1)
