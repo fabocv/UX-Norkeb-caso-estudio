@@ -144,7 +144,7 @@ Se toman algunas sugerencias del prototipo uno. Agregamos texturas de fondo y ge
 
 La idea es que el usuario aprenda intuitivamente a usar la app, en específico, debe aprender la noción de escanear las boletas para su beneficio. Como primera misión, a mis encuestados le contaré un pequeño storytelling introductorio.
 
-> "Mira, necesitamos comprar un bong y papelillos. Solo tenemos 20000 en efectivo asi que no podemos comprar online, tu misión es comprar solamente eso y ver que tanta maravilla es eso de que escaneando la boleta ganas plata para canjear en la tienda."
+> "Mira, necesitamos comprar un bong y papelillos. Solo tenemos 20000 en efectivo asi que no podemos comprar online, tu misión es comprar solamente eso en la tienda y ver que tanta maravilla es eso de que escaneando la boleta ganas plata para canjear en la tienda. Ten cualquier boleta en tus manos, veamos como funciona el prototipo."
 
 ![proto3](./assets/img/norkeb-3.png)
 
