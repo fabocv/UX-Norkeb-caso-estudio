@@ -3,13 +3,17 @@
 #### Autor: Fabián Catalán
 #### Tags: UX Research, Surveys, Agile, Prototype, Wireframes
 
-El crear una aplicación bajo procesos de diseño implica tanto en teoría y práctica, la constante validación y consulta de los clientes e interesados al proyecto con el fin de respaldar decisiones y avances de la construcción de una aplicación. Se realiza bajo los marcos del UX Research, la respectiva colecta de información valiosa a potentes clientes de un posible nicho de mercado de artículos desechables -parafernalias- de consumo fumador y de cultivo indoor, testeando bajo encuestas, la idea de ofrecer descuentos y beneficios por cada compra usando tecnología QR de por medio. Dado los resultados, se hizo validación de la idea y se construye por iteraciones las estructuras de las pantallas importantes de la aplicación, cuyas percepciones de diseño se recogieron mediante mensajes directos y dichas retroalimentaciones fueron contrastadas con los modelos de diseño probados en la industria. Actualmente se encuentra saliendo de la fase de investigación de diseño.
+> Ult. Actualización: 20 de Noviembre de 2025 
+
+El desarrollo de una aplicación siguiendo procesos de diseño requiere, tanto en teoría como en práctica, una validación constante con usuarios, clientes y partes interesadas. Este enfoque permite respaldar cada decisión y asegurar que los avances del proyecto estén alineados con las necesidades reales del mercado.
+
+ Se realizó bajo el marco del UX Research, la recopilación de información valiosa a potenciales clientes pertenecientes a un nicho de mercado de artículos desechables -parafernalias- de consumo fumador y de cultivo indoor, testeando bajo encuestas, la idea de **ofrecer descuentos y beneficios por cada compra usando tecnología QR de por medio**. Dado los resultados, se hizo validación de la idea y se construye por iteraciones las estructuras de las pantallas importantes de la aplicación, cuyas percepciones de diseño se recogieron mediante mensajes directos y dichas retroalimentaciones fueron contrastadas con los modelos de diseño probados en la industria. Actualmente se encuentra finalizando de la fase de investigación y validación de diseño.
 
 
 
 ## La idea
 
-Desde inicios de Noviembre, nace un proyecto piloto colaborativo y comunitario enfocado en la creación de un Growshop bajo una investigación previa, con constancia, motivación, apoyo social y una hipótesis de diseño nace **"Norkeb, tu growshop amigo"**. 
+Desde inicios de Noviembre, nace un proyecto piloto colaborativo y comunitario enfocado en la creación de una aplicación web que apoya a una tienda Growshop bajo UX Research, aplicando investigación previa, apoyo social y una hipótesis de diseño nació: **"Norkeb, tu growshop amigo"**. 
 
 Usando QR como forma digital de simplificación de procesos y mejora de usabilidad, decidí estudiar si es atractivo aumentar la fidelización de clientes y la mejora de experiencia de marca usando códigos QR que refleje las compras y bonificaciones gamificadas del uso de la aplicación de la marca Norkeb.
 
@@ -37,7 +41,7 @@ Por otro lado, todos manifiestan tener un interes medio-alto en información sob
 ![foto_fidelizacion](./assets/img/fidelizacion-1.png)
 Imagen #2 Motivación por programa de fidelización
 
-La última pregunta de gamificación evaluamos en interés de tres posibles misiones:
+En la última pregunta de gamificación evaluamos el interés de tres posibles misiones
 
 - Dejar una reseña sobre el producto comprado (5 votos, 62.5%)
 - Subir una foto de producto o planta (1 voto)
