@@ -3,8 +3,7 @@
 #### Autor: Fabián Catalán
 #### Tags: UX Research, Surveys, Agile, Prototype, Wireframes
 
-> Creación: 4 de noviembre de 2025
-> Ult. Actualización: 4 de diciembre de 2025 
+> Creación: 4 de noviembre de 2025 | Ult. Actualización: 4 de diciembre de 2025 
 
 El desarrollo de una aplicación siguiendo procesos de diseño requiere, tanto en teoría como en práctica, una validación constante con usuarios, clientes y partes interesadas. Este enfoque permite respaldar cada decisión y asegurar que los avances del proyecto estén alineados con las necesidades reales del mercado.
 
