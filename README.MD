@@ -1,9 +1,9 @@
 # NORKEB: Una app para mejorar la fidelización de clientes mediante estrategias de gamificación por compras
 
 #### Autor: Fabián Catalán
-#### Tags: UX Research, Surveys, Agile, Prototype, Wireframes
+#### Tags: UX Research, UX Metrics, Surveys, Agile, Prototype, Wireframes
 
-> Creación: 4 de noviembre de 2025 | Ult. Actualización: 4 de diciembre de 2025 
+> Creación: 1 de noviembre de 2025 | Ult. Actualización: 4 de diciembre de 2025 
 
 El desarrollo de una aplicación siguiendo procesos de diseño requiere, tanto en teoría como en práctica, una validación constante con usuarios, clientes y partes interesadas. Este enfoque permite respaldar cada decisión y asegurar que los avances del proyecto estén alineados con las necesidades reales del mercado.
 
@@ -28,13 +28,13 @@ Dividido en 3 áreas, la encuesta midió:
 
 > Según [los artículos de Jakob Nielsen](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/), manifiesta que con solo 5 encuestados son más que suficientes para tomar decisiones rápidas de diseño. Aunque hay discusiones de la [vigencia de lo anterior](https://medium.com/@anna.y.dickinson/its-not-five-users-c11da404f299) tenemos una muestra interesante con resultados coherentes para esta primera iteración.
 
-El rango de edades de los ocho encuestados está entre los 25 y 44 años, con tendencias a cultivo (62.5%) y consumo.
-Declaran guardar siempre o temporalmente las boletas físicas (75%). La novena pregunta agrega un dato interesante: los usuarios manifiestan un interés medio-alto de ganar recompensas bajo esta mecánica de escaneo de QR de boletas (ver imagen #1), obteniendo dos indicadores que respaldan, en primera iteración, que nuestra técnica de fidelización de escaneo de QR de boletas *podría ser viable*.
+El rango de edades de los ocho encuestados está entre los 25 y 44 años, con tendencias a cultivo (5 de 8 usuarios) y consumo.
+Declaran guardar siempre o temporalmente las boletas físicas (6 de 8 usuarios). La novena pregunta agrega un dato interesante: los usuarios manifiestan un interés medio-alto de ganar recompensas bajo esta mecánica de escaneo de QR de boletas (ver imagen #1), obteniendo dos indicadores que respaldan, en primera iteración, que nuestra técnica de fidelización de escaneo de QR de boletas *podría ser viable*.
 
 ![Gráfico de barras mostrando la probabilidad de escaneo de QR](./assets/img/qr-win-1.png)
 Imagen #1 Probabilidad de escanear el QR una boleta de Norkeb.
 
-Por otro lado, todos manifiestan tener un interés medio-alto en información sobre el uso y cultivo de estos productos. Siguiendo la línea de la comunidad, se testea si están dispuestos a  compartir fotos y consejos de plantas y productos, manifestando interés medio-alto (87.5%) manteniedo una preocupación media-alta de anonimato. Se considera preguntar directamente qué les motiva más a unirse a un programa de fidelización, escogiendo en su gran mayoría el "ganar descuentos directos en productos (5 de 8 usuarios), obtener contenido exclusivo (2 usuarios), y leve interés (1 usuario) por gamificar via reconocimiento por niveles y estatus / insignias.
+Por otro lado, todos manifiestan tener un interés medio-alto en información sobre el uso y cultivo de estos productos. Siguiendo la línea de la comunidad, se testea si están dispuestos a  compartir fotos y consejos de plantas y productos, manifestando interés medio-alto ( 7 encuestados ) manteniedo una preocupación media-alta de anonimato. Se considera preguntar directamente qué les motiva más a unirse a un programa de fidelización, escogiendo en su gran mayoría el "ganar descuentos directos en productos (5 de 8 usuarios), obtener contenido exclusivo (2 usuarios), y leve interés (1 usuario) por gamificar via reconocimiento por niveles y estatus / insignias.
 
 ![Gráfico de motivación por programa de fidelización de este growshop - Norkeb](./assets/img/fidelizacion-1.png)
 Imagen #2 Motivación por programa de fidelización
