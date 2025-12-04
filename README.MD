@@ -13,9 +13,7 @@ El desarrollo de una aplicación siguiendo procesos de diseño requiere, tanto e
 
 ## La idea
 
-Desde inicios de noviembre, nace un proyecto piloto colaborativo y comunitario enfocado en la creación de una aplicación web que apoya a una tienda Growshop bajo UX Research, aplicando investigación previa, apoyo social y una hipótesis de diseño nació: **"Norkeb, tu growshop amigo"**. 
-
-La hipótesis de diseño es: "Norkeb, tu growshop amigo". La propuesta central es utilizar códigos QR en las boletas físicas para vincular la experiencia offline con la digital para aumentar la fidelización de clientes y la mejora de experiencia de marca haciendo de cada compra una bonificación gamificada.
+Desde inicios de noviembre, nace un proyecto piloto colaborativo y comunitario enfocado en la creación de una aplicación web que apoya a una tienda Growshop bajo UX Research, aplicando investigación previa, apoyo social naciendo una hipótesis de diseño: "Norkeb, tu growshop amigo". La propuesta central es utilizar códigos QR en las boletas físicas para vincular la experiencia offline con la digital para aumentar la fidelización de clientes y la mejora de experiencia de marca haciendo de cada compra una bonificación gamificada.
 
 ## Validación de la idea y resultados de primera encuesta
 
