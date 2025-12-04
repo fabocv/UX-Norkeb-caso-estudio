@@ -146,9 +146,9 @@ La idea es que el usuario aprenda intuitivamente a usar la app, en específico, 
 
 > "Mira, necesitamos comprar un bong y papelillos. Solo tenemos 20000 en efectivo así que no podemos comprar online, tu misión es comprar solamente eso en la tienda y ver que tanta maravilla es eso de que escaneando la boleta ganas plata para canjear en la tienda. Ten cualquier boleta en tus manos, veamos como funciona el prototipo."
 
-![Prototipo 2.1 ](./assets/img/norkeb-3.png)
+![Prototipo 2.1 pantalla principal de la web app Norkeb - tu growshop amigo](./assets/img/norkeb-3.png)
 
-![Prototipo 2.2 ](./assets/img/Norkeb-4.png)
+![Prototipo 2.2  - pantalla gracias por tu compra con el total de puntos ganados](./assets/img/Norkeb-4.png)
 
 # Prototipo interactivo
 
