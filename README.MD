@@ -153,3 +153,64 @@ La idea es que el usuario aprenda intuitivamente a usar la app, en específico, 
 # Prototipo interactivo
 
 [interactuar por acá](https://www.figma.com/proto/GfNHqGwrQjXyZAIueRdXeM/MVP2025)
+
+## 🧪 4. Usabilidad y Validación del Prototipo
+
+Esta fase fue crucial para validar nuestras hipótesis de diseño y asegurar que el sistema de recompensas fuera intuitivo.
+
+### 4.1 Plan de Testeo
+* **Metodología:** Testeo moderado presencial, con enfoque en la técnica "Think Aloud" (Pensar en voz alta).
+* **Muestra:** 6 participantes, replicando el perfil del "Cultivador" y "Consumidor Casual".
+* **Herramienta:** Prototipo interactivo de Figma (link).
+
+#### Tareas a Validar
+1.  **Inicio de Sesión:** El usuario debe registrarse y localizar el bono de bienvenida.
+2.  **Escaneo de QR:** El usuario debe escanear un código de boleta simulado y confirmar la ganancia de puntos.
+3.  **Canje de Recompensa:** El usuario debe encontrar la sección de premios y simular el canje de un producto de $2.500.
+
+---
+
+### 4.2 Resultados Clave (Hallazgos)
+Los resultados confirmaron la motivación por el sistema, pero revelaron fricciones importantes en la interfaz de puntos.
+
+| Hallazgo | Tasa de Éxito | Nivel de Fricción |
+| :--- | :--- | :--- |
+| **Bono de Bienvenida:** Fácil de localizar y claro en su valor. | 100% | Baja |
+| **Pantalla de Puntos:** Los usuarios confundieron los "Puntos Norkeb" con un saldo en CLP. | 25% | Alta |
+| **Función de Escaneo:** El botón estaba muy escondido en la barra de navegación inferior. | 50% | Media |
+| **Proceso de Canje:** Intuitivo, una vez que llegaban a la sección de premios. | 87.5% | Baja |
+
+> **Cita clave de usuario:** *"Me gusta la idea de ganar un 1%, pero no entendía si esos 'puntos' eran plata real o solo fichas de juego."*
+
+### 4.3 Iteración: Antes y Después (Solución de Diseño)
+Los hallazgos anteriores nos llevaron a dos iteraciones clave para mejorar la claridad de la arquitectura de la información.
+
+> # Iteraciones de prueba!
+
+#### 🎯 Iteración 1: Claridad de Saldo y Moneda
+**Problema:** El texto "1.050 Puntos" no era claro, causando confusión con el saldo bancario.
+**Solución:** Se cambió el *copy* y se añadió un icono identificador.
+
+| Antes | Después |
+| :---: | :---: |
+|  |  |
+| **Razón del cambio:** El saldo ahora se presenta como **"1.050 N-Points"** y se explica en un tooltip contextual que son la moneda de canje interna. |
+
+#### 🎯 Iteración 2: Optimización del Flujo de Escaneo
+**Problema:** El botón de escanear QR estaba agrupado con otras funciones, lo que aumentaba el tiempo de tarea a 15 segundos en promedio.
+**Solución:** Se elevó la jerarquía visual del botón principal de acción (CTA).
+
+| Antes | Después |
+| :---: | :---: |
+|  |  |
+| **Razón del cambio:** Se movió el ícono a un botón flotante central (FAB), reduciendo el tiempo de tarea a **5 segundos** y elevando la tasa de éxito al 100%. |
+
+### 4.4 Métricas Finales y Conclusión
+Tras aplicar las correcciones, se realizó una mini-validación rápida (N=4) para obtener un puntaje final.
+
+#### System Usability Scale (SUS) Simplificado
+El SUS es una métrica de usabilidad estándar con un puntaje máximo de 100.
+* **Puntaje promedio final de Norkeb:** **82/100**
+* **Interpretación:** Según la escala de Aaron Bangor, un puntaje de **82** se considera en el rango de **"Excelente"** y supera el promedio de usabilidad (68).
+
+> **Conclusión:** La estrategia de gamificación fue validada. La usabilidad mejoró significativamente en las tareas críticas de acumulación de puntos, asegurando un proceso de fidelización claro y disfrutable.
